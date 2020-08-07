@@ -1,0 +1,27 @@
+.main-logo {
+  font-weight: bold;
+  #left {
+    color: #006876;
+  }
+  #right {
+    color: #009e94;
+  }
+}
+
+.my-header-role {
+  font-size: 13px;
+  font-weight: 100;
+  color: gray;
+  margin: 0;
+  margin-left: 6px;
+}
+
+@media screen and (max-width: 480px) {
+  .header-items {
+    flex-direction: column;
+  }
+  .navbar-expand {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

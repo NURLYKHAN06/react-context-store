@@ -1,0 +1,26 @@
+.my-posts-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.loader {
+  display: flex;
+  align-items: center;
+}
+.loader .spinner-border {
+  margin: 0 7px;
+}
+
+.my-card-post-header {
+  display: flex;
+  justify-content: flex-start;
+}
+.my-card-post-header-buttons {
+  margin-top: 10px;
+  /* display: flex;
+  flex-direction: column;
+  padding-left: 10px; */
+}
+
+.my-card-post-header-buttons button:nth-child(2) {
+  margin-left: 10px;
+}
