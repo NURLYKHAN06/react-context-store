@@ -1,2 +1,3 @@
 # react-context-store
-React context manager.
+
+My ideal react context state manager.
